@@ -4,22 +4,22 @@
   "description": "",
    "scripts": {
      "start": "node server",
-     "build": "webpack",
-    "test": "echo \"Error: no test specified\" && exit 1"
+     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
 
   "dependencies": {
-
-    "vue": "^2.6.10"
-  },
+    "express": "^4.16.4",
+    "vue": "^2.6.10",
+    "webpack": "^4.30.0"
+    },
   "devDependencies": {
-    "vue-loader": "^15.7.0",
-    "vue-template-compiler": "^2.6.10",
-    "webpack-cli": "^3.3.0",
-    "webpack":"^4.29.6"
+    "webpack": "^4.30.0",
+    "webpack-hot-middleware": "^2.24.3",
+    "webpack-dev-middleware" : "^3.6.2",
+    "webpack-cli": "^3.3.1"
 
 
   }
