@@ -1,11 +1,9 @@
-import Vue from 'vue'
-import AppLayout from './theme/Layout.vue'
-
-
-
+import Vue from "vue"
 const app = new Vue({
-  // render func that return an elementapp
-  ...AppLayout
+  data: {
+    hello: "hi there23333"
+  },
+  template: '<div id = "app">{{hello}}</div>'
 })
-// export the variable in json export
+
 export { app }
